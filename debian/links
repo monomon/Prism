@@ -1,0 +1,6 @@
+opt/Prism/Prism/Tools/PrismProjectBrowser.sh usr/bin/PrismProjectBrowser
+opt/Prism/Prism/Tools/PrismSettings.sh usr/bin/PrismSettings
+opt/Prism/Prism/Tools/PrismTray.sh usr/bin/PrismTray
+opt/Prism/Prism/Tools/PrismProjectBrowser.desktop usr/share/applications/PrismProjectBrowser.desktop
+opt/Prism/Prism/Tools/PrismSettings.desktop usr/share/applications/PrismSettings.desktop
+opt/Prism/Prism/Tools/PrismTray.desktop usr/share/applications/PrismTray.desktop

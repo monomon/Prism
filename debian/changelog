@@ -1,0 +1,315 @@
+prism (82f42f8a6487ee2746265db7433eb9aa806d6699-1) unstable; urgency=medium
+
+  [ RichardFrangenberg ]
+  * Initial commit
+  * Update issue templates
+  * v1.1.0 beta3
+  * no message
+  * Docu added
+  * QA fixes
+  * Linux Fix
+  * readme update
+  * docu theme
+  * 1.1.0 release
+  * docu update
+  * custom plugins
+  * v1.1.1
+  * v1.1.1
+  * autoupdate permission fix
+  * houdini usd support
+  * OS fixes
+  * bugfixes
+  * project plugins added
+  * save bugfix
+  * non ascii character handling improvement
+  * maya env variables support
+  * import state fixes
+  * playblast mp4 output
+  * Houdini rs proxy support added
+  * Houdini rs proxy sop rop support added
+  * Prism github updater
+  * update button order
+  * photoshop script fix
+  * preserve references export option maya
+  * fileInPipeline check fix
+  * fileInPipeline check fix
+  * maya playblast gate mask removed
+  * docu update
+  * export as previous uses previous user
+  * hda export fix
+  * maya rs proxy name
+  * houdini hda fix
+  * houdini save fix
+  * improved cryptomatte handling
+  * Blender 2.8 support
+  * Houdini RS AOV fix
+  * scene preview and description
+  * app plugin preset added
+  * new hda workflow
+  * houdini parm take handling
+  * v1.2.0
+  * autosave fix
+  * cleanup fixes
+  * stylesheet pyside2 fix
+  * docu update
+  * Houdini parm handling improved
+  * Houdini Vray and Arnold support
+  * .blend export/import fix
+  * allow underscores in project name
+  * photoshop mac dev start
+  * version bump
+  * Pandora plugin allow local output
+  * Photoshop support added (Mac)
+  * mac/linux updater permission fix
+  * Blender screenshot fix
+  * media preview restructure
+  * option to use the same version stack for scenefiles and output data
+  * new callbacks added
+  * UI less mode
+  * local scene TOPs fix
+  * shotcam update fix
+  * mayapy support
+  * ui less mode improvements
+  * Photoshop psb and exr support added
+  * various bugfixes
+  * option to override Houdini takes
+  * Deadline take fix
+  * unicode error handling
+  * nuke syntax fix
+  * project created callback
+  * network project path fix.
+  * Houdini shelf integration update
+  * createStep improved api
+  * onProjectCreated calltime changed
+  * auto update added
+  * Redshift Houdini multilayer exr support
+  * maya unit convert fix
+  * houdini filecache fix
+  * Maya apply alembic cache
+  * maya import error fix
+  * maya aov path fix
+  * maya_export_abc callback added and introduced PRISMJOB variable in Houdini
+  * docu update
+  * docu update
+  * docu update
+  * v1.2.1.0 API improvements and $PRISMJOBLOCAL added
+  * search added, context menu callbacks added
+  * create empty scene fix
+  * improved messageParent handling
+  * fix error if qt is not available
+  * Houdini package integration and network preview tool
+  * asset category and user abbreviation added
+  * various bugfixes
+  * Deadline plugin callbacks added and cleanup
+  * create project programmatically and maya save popup fix
+  * python3 fix and createEntity method added
+  * set project fix
+  * option added to use "-" in sequence names
+  * PDG support improved
+  * additional save callback arguments
+  * postPublish callback added
+  * create shot fix
+  * djv 2 support
+  * standalone State Manager, natural shot sorting and hda filter improvements
+  * support for 3ds max 2020, fix project hda export, set project for Deadline jobs
+  * Maya aov fixes
+  * pdg plugin and small fixes
+  * custom outputpaths and option to set shorange from statemanager
+  * support for Nuke 12 and custom export path imports
+  * rendersettings state
+  * nuke layout fix
+  * sequenceSeparator option added
+  * write sequenceSeparator to new project configs
+  * fix error with invalid recent files
+  * filenameseparator fix
+  * rendersettings preset in state manager menu and on render states added (Maya and Houdini)
+  * rendersettings option fix for max, blender
+  * restore previous rendersettings after publish when preset was applied during publish
+  * houdini 18.0 support
+  * Houdini wedging, PDG updates and various fixes
+  * display "other" filetypes in the Project Browser (1.2.1.33)
+  * PDG state node creation (1.2.1.34)
+  * Blender viewlayer error fix
+  * Deadline submission max2018 fix
+  * PB preview update improvement and PDG updates
+  * PDG nodetypes fix
+  * fixed custom export path version up and inefficient PB scene refreshing
+  * added option for maya recommended playblast settings and small fixes
+  * Maya playblast settings update
+  * make black compatible
+  * black code formatting
+  * version bump
+  * fix edit shot error
+  * Blender collection workflow improvements, auto import option and small fixes (v1.2.1.43)
+  * pdg python top support
+  * small fixes (v1.2.1.45)
+  * fixed Houdini Deadline bug (v1.2.1.46)
+  * Prism menu added to Houdini main menu various PDG improvements
+  * fixed Blender loading (v1.2.1.48)
+  * update options extended v1.2.1.49
+  * copyright update
+  * added Maya 2020 to the installer
+  * updater fix
+  * updater fixes
+  * make changelog modal
+  * fixed updater and small PDG fixes v1.2.1.50
+  * added support for Octance in Houdini - v1.2.1.51
+  * fixed typo in changelog
+  * update from zip option fixed - v1.2.1.52
+  * rendersettings state fixed without gui - v1.2.1.53
+  * fixed a bug when updating .bgeo.sc caches - v1.2.1.54
+  * fixed an error in the folder state -v1.2.1.55
+  * solved a problem of freezing dialog in Houdini 18 - v1.2.1.56
+  * vdb support in Houdini, installation without root permissions and code improvements - v1.2.1.57
+  * fixed asset folders
+  * version bump
+  * update changelog
+  * initial Blender support on Linux, small bugfixes - v1.2.1.59
+  * fixed an error in the installer on Windows - v1.2.1.60
+  * fixed an error in the installer on Windows - v1.2.1.61
+  * edit comment, delete multiple aovs, blender aov support - v1.2.1.62
+  * new Houdini environment variables and new button for faster entity creations
+  * fixed a bug, which closed the entity creation dialogs - v1.2.1.64
+  * fixed an error in Houdini when no username is set in houdini
+  * Drag&drop media into the Project Browser, integration example paths - v1.2.1.66
+  * added renderformat options (exr, png, jpg), prores conversion - v1.2.1.67
+  * fixed some issues - v1.2.1.68
+  * documentation update
+  * fixed various errors - v1.2.1.69
+  * fixed photoshop export path and updating maya namespaces - v1.2.1.70
+  * context menus and Import Task bugfix - v1.2.1.71
+  * update integrations on Prism update, fixed Blender collections - v1.2.1.72
+  * fixed Blender integration - v1.2.1.73
+  * changelog update
+  * fixed full category list - v1.2.1.74
+  * horizontal scrollbars, .app to .command on mac - v1.2.1.75
+  * Prism v1.3.0.0
+  * several bugfixes - v1.3.0.1
+  * fixed several bugs - v1.3.0.2
+  * fixed high dpi error - v1.3.0.3
+  * changelog update
+  * fixed more bugs - v1.3.0.4
+  * startframe 0 fix - v1.3.0.5
+  * photoshop and float range fixes - v1.3.0.6
+  * preview fix, relative path fix, hda export fix and resolution sanity check fix - v1.3.0.7
+  * project app plugin fix - v1.3.0.8
+  * fixed project plugin unload bug - v1.3.0.9
+  * inactive plugin reload fix - v1.3.0.10
+  * changelog update
+  * project plugin subfolders - v1.3.0.11
+  * localshot fix, hda range fix - v1.3.0.12
+  * Houdini state bug, combine media bug - v1.3.0.13
+  * houdini update env - v1.3.0.14
+  * Blender stylesheet fix, 3ds Max shotcam fix - v1.3.0.15
+  * clipboard image paste, shotlist fix - v1.3.0.16
+  * fixed screencapture tool - v1.3.0.17
+  * ignore size of invisible tabs - v1.3.0.18
+  * added PRISM_LIBS env var - v1.3.0.19
+  * refresh button, resolution preset fix - v1.3.0.20
+  * installer updates, mac refresh - v1.3.0.21
+  * drop scenefiles - v1.3.0.22
+  * option to not set maya project - v1.3.0.23
+  * houdini startup dialog fixes - v1.3.0.24
+  * update improvements, fixed set project - v1.3.0.25
+  * houdini integration fix - v1.3.0.26
+  * nuke assist, execute fix - v1.3.0.27
+  * import state refactor, plugin load error handling - v1.3.0.28
+  * getshot fix - v1.3.0.29
+  * defaultImportStateName to project config - v1.3.0.30
+  * new HDA workflow - v1.3.0.32
+  * fixed hda update - v1.3.0.33
+  * version bump
+  * fbx ROP support, custom plugin location - v1.3.0.34
+  * HDA workflow update - v1.3.0.35
+  * hda update, external Prism plugins - v1.3.0.36
+
+  [ Ember Light ]
+  * Remove gizmo reference
+
+  [ RichardFrangenberg ]
+  * changelog update
+
+  [ Ember Light ]
+  * Removed all pVersion in if's
+
+  [ RichardFrangenberg ]
+  * local project folder fixes, PB refreshing - v1.3.0.37
+  * import state coloring - v1.3.0.38
+  * expand/collapse - v1.3.0.39
+
+  [ Ember Light ]
+  * Added assetinfo to getConfigPath()
+
+  [ RichardFrangenberg ]
+  * Blender fbx fix - v1.3.0.40
+  * Houdini 18.5 Python 3 support sequence previews search button v1.3.0.41
+  * shortcut fix - v1.3.0.42
+
+  [ Ember Light ]
+  * Fixed saveWithComment closing directly
+  * Fixed versioning and platforms
+  * Fixed file installation
+  * Scripts now run from .py files
+  * Extracting the scripts from outside the write node
+  * Added extracted writer scripts
+  * Fixed Open in explorer script
+  * Fixed refresh writer script
+  * Extracted the scripts to induvidual .py files
+  * Removed default Fusion 9 comp
+  * Added empty Fusion 16 project file
+
+  [ RichardFrangenberg ]
+  * Fusion 16 support - v1.3.0.43
+  * import state indicators - v1.3.0.44
+  * default maya namespace changed - v1.3.0.45
+  * return createproject dialog
+  * media compression improved, track dependencies - v1.3.0.46
+  * VrayLightSelects, fixed project creation - v1.3.0.47
+  * new hook system, Houdini bug fixes - v1.3.0.48
+  * recent project tooltip
+  * fixed photoshop tasklist - v1.3.0.49
+  * PRISM_ASSETPATH added - v1.3.0.50
+  * fixed Houdini env error - v1.3.0.51
+  * Nuke Indie, .OBJ in Blender - v1.3.0.52
+  * fixed Blender export - v1.3.0.53
+  * 3De Houdini update
+  * master export version beta - v1.3.0.54
+  * fixed task selection bug - v1.3.0.55
+  * master version updates - v1.3.0.56
+  * delete master - v1.3.0.57
+  * fixed render error in Blender - v1.3.0.58
+  * houdini master versions, recent projects improved - v1.3.0.59
+  * node tooltips - v1.3.0.60
+  * removing Redshift AOV suffixes
+  * redshift and shotcam fix - v1.3.0.61
+  * fixed local project folder default - v1.3.0.62
+  * 3Delight 2.3.2 support - v1.3.0.63
+  * export/render locations - v1.3.0.64
+  * fixed framerate popup
+  * Redshift scenedescription rendering - v1.3.0.65
+  * import master fix
+  * environment variables - v1.3.0.66
+  * Nuke commandline rendering - v1.3.0.67
+  * changelog update
+  * various fixes - v1.3.0.68
+  * multi errors fix, admin popup - v1.3.0.69
+  * fixed Blender linux update - v1.3.0.70
+  * changelog update
+  * playblast extension fix - v1.3.0.71
+  * filecache load scene fix - v1.3.0.72
+  * Maya gpuCache, even resolution fix - v1.3.0.73
+  * fixed Maya updates and master exports - v1.3.0.74
+  * improved master and shot renaming - v1.3.0.75
+  * added preset categories, fix import bug - v1.3.0.76
+  * fusion update, windows network path fixes - v1.3.0.77
+  * Fusion fix, scenefile drop fix, startup from standalone fix - v1.3.0.78
+  * internal changes - v1.3.0.79
+  * support for Maya 2022 and Nuke 13, fixed asset list - v1.3.0.80
+  * gitignore update
+  * maya save force
+  * Blender taskname fix, shotgun sync fix - v1.3.0.81
+  * added autosave popup in Houdini
+  * fix configcache, disable autosave popup without gui
+  * Blender 2.93 support, force version fix - v1.3.0.82
+
+ -- Mois Moshev <monstara@gmail.com>  Sat, 25 Dec 2021 04:55:36 +0200

@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Prism
+Source: https://github.com/RichardFrangenberg/Prism.git
+
+Files: *
+Copyright: 2021 Richard Frangenberg
+License: GPL-3

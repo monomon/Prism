@@ -1,0 +1,14 @@
+Source: prism
+Section: utils
+Priority: optional
+Maintainer: Mois Moshev <mois@monomon.me>
+Homepage: https://prism-pipeline.com/
+Standards-Version: 4.6.0.1
+Build-Depends: debhelper
+Vcs-Git: git@github.com:RichardFrangenberg/Prism.git
+
+Package: prism
+Architecture: all
+Depends: python3-pyside2.qtgui, python3-pyside2.qtcore, python3-pyside2.qtwidgets, python3-ruamel.yaml, ffmpeg, python3-pil, python3-openimageio
+Description: Free and artist friendly Pipeline for animation and VFX projects
+ Free and artist friendly Pipeline for animation and VFX projects teams achieve their goals by automating tasks and simplifying their workflow.
