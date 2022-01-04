@@ -1,10 +1,11 @@
 # Maintainer: Mois Moshev <mois@monomon.me>
-pkgname=prism
+pkgname=Prism
 pkgver=1.3.0.82
 pkgrel=1
 pkgdesc="Free and artist friendly Pipeline for animation and VFX projects teams achieve their goals by automating tasks and simplifying their workflow."
 depends=(pyside2 python-ruamel-yaml ffmpeg python-pillow openimageio)
 url=https://prism-pipeline.com/
+license=("GPLv3")
 arch=("any")
 
 package() {
